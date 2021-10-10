@@ -6,7 +6,7 @@
                         
                         .qm {
                             margin-top: 0px;
-                            margin-left: 70px;
+                            margin-left: 20%;
                         }
                         
                         .q {
@@ -22,11 +22,13 @@
                         .flex {
                             display: flex;
                             flex-wrap: wrap;
-                            justify-content: space-evenly;
+                            justify-content: space-around;
                             height: 300px;
-                            width: 100%;
+                            width: 60%;
                             position: relative;
                             margin-top: 40px;
+                            overflow: scroll;
+                            margin-left: 20%;
                         }
                         
                         .trip {
@@ -40,6 +42,8 @@
                             height: 280px;
                             width: 185px;
                             border-radius: 10px;
+                            margin-right: 5%;
+                            margin-bottom: 5%;
                             box-shadow: 6px 10px 10px #dadada;
                         }
                         
@@ -63,11 +67,19 @@
                             top: 120px;
                         }
                         
+                        .ch1 {
+                            color: rgb(56, 53, 53);
+                            zoom: 120%;
+                            position: absolute;
+                            top: 400px;
+                            left: 10px;
+                        }
+                        
                         #b {
                             color: gray;
                             font-size: xx-large;
                             float: right;
-                            margin-right: 85px;
+                            margin-right: 275px;
                             cursor: pointer;
                         }
                         /* INDEX1.HTML */
@@ -212,13 +224,17 @@
                                 margin-top: -20px;
                                 align-items: center;
                                 padding-left: 5px;
+                                overflow: unset;
+                                margin-left: -1px;
                             }
                             .pt,
                             .ch,
                             .hrr,
                             .addli,
                             .through,
-                            .bnk {
+                            .bnk,
+                            .ch1,
+                            .ch2 {
                                 display: none;
                             }
                             /* ---INDEX1.HTML--- */
