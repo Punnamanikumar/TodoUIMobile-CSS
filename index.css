@@ -23,12 +23,13 @@
                             display: flex;
                             flex-wrap: wrap;
                             justify-content: space-around;
-                            height: 300px;
+                            height: 350px;
                             width: 60%;
                             position: relative;
                             margin-top: 40px;
-                            overflow: scroll;
+                            overflow: auto;
                             margin-left: 20%;
+                            /* border: 5px solid black; */
                         }
                         
                         .trip {
